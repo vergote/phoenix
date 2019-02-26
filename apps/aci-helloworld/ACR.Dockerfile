@@ -1,7 +1,7 @@
 FROM node:8-alpine
 ARG basedir="apps/aci-helloworld/app"
 ARG build_info="Docker container build"
-ENV NODE_ENV production
+ENV NODE_ENV test
 ENV BUILD_INFO $build_info
 # Place our app here
 WORKDIR /home/app
